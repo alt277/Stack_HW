@@ -45,7 +45,7 @@ class CheckBracket
                                         (ch==']' && (check ==')'|| check=='}') ) ||
                                         (ch==')' &&  check=='}')
                         )
-//                            System.out.println("Error3: "+ch+" at "+j);
+//                           System.out.println("Error3: "+ch+" at "+j);
                         System.out.println("Error:  нельзя вводить "+ch+"  после "+check+
                                 " в позиции: "+j);
                     }
