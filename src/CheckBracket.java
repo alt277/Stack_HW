@@ -57,7 +57,7 @@ class CheckBracket
                                  (ch==']' &&  chx!='[') ||
                                  (ch==')' &&   chx!='(')
                           )
-                            { System.out.println("Error: "+ch+" at "+j);
+                            { System.out.println("Error: не парные скобки  "+ch+" at "+j);
                                          }
                     }
                     else                                                  // Стек пуст
