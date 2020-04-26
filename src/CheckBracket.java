@@ -45,7 +45,7 @@ class CheckBracket
                                         (ch==']' && (check ==')'|| check=='}') ) ||
                                         (ch==')' &&  check=='}')
                         )
-//                            System.out.println("Error3: "+ch+" at "+j);
+//                           System.out.println("Error3: "+ch+" at "+j);
                         System.out.println("Error:  нельзя вводить "+ch+"  после "+check+
                                 " в позиции: "+j);
                     }
@@ -56,9 +56,9 @@ class CheckBracket
                         if(     (ch=='}' && chx!='{') ||
                                  (ch==']' &&  chx!='[') ||
                                  (ch==')' &&   chx!='(')
-                          )
-                            { System.out.println("Error: "+ch+" at "+j);
-                                         }
+                          ) {
+                            System.out.println("Error: не парные скобки  "+ch+" at "+j);
+                            }
                     }
                     else                                                  // Стек пуст
                         System.out.println("Error: "+ch+" at "+j);
